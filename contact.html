@@ -2,28 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>John Paul Okoth - CV</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | John Paul Okoth</title>
     
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
-    <hr>
-    <form  action="submit">
-        <p>Enter your Name</p>
-        <input  type="text" name="" id="">
-        <p>E-mail Adress</p>
-        <input type="text" name="" id="">
-        <p>Message subject</p>
-        <input type="text" name="" id="">
-        <p>Enter your message</p>
-        <textarea name="message" rows="8" cols="40" id=""></textarea>
+  <header class="site-header"><a class="mark" href="index.html">JP<span>●</span> / 26</a><nav><a href="index.html">About</a><a href="personalExp.html">Experience</a><a href="hobbies.html">Interests</a><a href="contact.html" aria-current="page">Contact</a></nav></header>
+  <main class="page subpage"><div class="subpage-header"><div><p class="eyebrow">Start a conversation</p><h1>Say hello.</h1></div><p class="subpage-intro">For a project, a question, or simply a good exchange of ideas.</p></div>
+    <form action="mailto:johnpaulokoth@gmail.com" method="post" enctype="text/plain">
+        <label for="name">Your name</label><input type="text" name="name" id="name" required>
+        <label for="email">Email address</label><input type="email" name="email" id="email" required>
+        <label for="subject">Message subject</label><input type="text" name="subject" id="subject">
+        <label for="message">Your message</label><textarea name="message" id="message" required></textarea>
+        <label class="check"><input type="checkbox" name="copy" id="copy"> Email a copy to yourself</label>
+        <button type="submit">Send message ↗</button>
+    </form></main>
+	<footer class="site-footer"><span>johnpaulokoth@gmail.com</span><span><a href="index.html">Back home ↗</a></span></footer>
 
-        <p><input type="checkbox" name="" id="">E-mail this message to your own adress</p>
-        <input type="submit" name="" id="">
-    </form>
-	<hr>
-
-</body>
+</body> 
 </html>
 
 
